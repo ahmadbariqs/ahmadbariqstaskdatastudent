@@ -3,7 +3,7 @@ public class Student {
 
    public Student(String name) {
       // This constructor has one parameter, name.
-      System.out.println("Studen's Name is : " + name );
+      System.out.println("Student's Name is : " + name );
    }
 
    public void setAge( int age ) {
