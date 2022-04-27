@@ -24,6 +24,10 @@ public class frame1 extends javax.swing.JFrame {
     private int Validation(){
         int flag = 0;
         String error ="";
+        if(jtfid.getText().equals("")){
+           flag = 1;
+           error += "ID Can't be blank.n";            
+        }
         if(jtfname.getText().equals("")){
             flag = 1;
             error += "Name Can't be blank.n";            
